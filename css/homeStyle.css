@@ -1,0 +1,86 @@
+.bd{
+      background: #121413;
+    }
+    header{
+      background: #110402;
+    }
+    #headerh3{
+      color: #7e2718;
+      font-family: cursive;
+      font-weight: 100;
+    }
+    #col1:hover {
+      background-color:#687553;
+      border-radius: 25px;
+    }
+    #col2:hover {
+      background-color:#687553;
+      border-radius: 25px;
+    }
+    #col1,#col2{
+      background-color: #65882e;
+      border-radius: 25px;
+    }
+nav{
+  background-color: #6cf535;
+  
+}
+.navbar-brand{
+font-size: 25px;
+
+}
+#myList{
+  font-size: 25px;
+
+}
+.nav-item{
+  font-family: cursive;
+}
+
+ #nav-item:hover {
+  background-color: #43d480;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 16px;
+  
+}
+
+
+    /* Start  Footer style */
+footer{
+  background-color: #22272e;
+}
+
+
+.link{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.footerh4{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  font-family: cursive;
+}
+
+.footerh4::before{
+  content: '';
+  font-size: 20px;
+  position: absolute;
+  bottom: -10px;
+  background-color: #1ee96c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+/* End of Footer style*/
